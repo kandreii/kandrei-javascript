@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<htmk>
+<head>
+    <title>
+    Calculator App
+    </title>
+</head>
+<body>
+
+    <link rel="stylesheet"
+    href="Calculator.css">
+
+    <div>
+    <div>
+    <button class="calc" onclick="calculator('+');">
+        +
+    </button>
+    <button onclick="calculator('-');">
+        -
+    </body>
+    <button onclick="calculator('*');">
+        *
+    </button>
+    <button onclick="calculator('/');">
+        /
+    </button>
+    </div>
+
+    <div>
+    <button onclick="calculator('7');">
+        7
+    </button>
+    <button onclick="calculator('8');">
+        8
+    </button>
+    <button onclick="calculator('9');">
+        9
+    </button>
+    <button onclick="  calculation = eval(number)
+    console.log(calculation);">
+        =
+    </button>
+    </div>
+
+    <div>
+    <button onclick="calculator('4');">
+        4
+    </button>
+    <button onclick="calculator('5');">
+        5
+    </button>
+    <button onclick="calculator('6');">
+        6
+    </button>
+    </div>
+
+    <div>
+    <button onclick="calculator('1');">
+        1
+    </button>
+    <button onclick="calculator('2');">
+        2
+    </button >
+    <button onclick="calculator('3');">
+        3
+    </button>
+    </div>
+
+    <div>
+    <button onclick="calculator('.');">
+        .
+    </button>
+    <button onclick="calculator('0');">
+        0
+    </button>
+    <button onclick="clare();">
+        C
+    </button>
+    </div>
+    </div>
+
+    <script src="Calculator.js">
+    </script>
+</body>
+</htmk>
