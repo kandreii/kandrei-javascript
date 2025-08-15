@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Heads or Tails Game</title>
+  </head>
+  <body>
+<button onclick="process1();">
+  Heads
+</button>
+<button onclick="process2()">
+  Tails
+</button>
+    <script >
+      let move = '';
+      function process1 (){
+        moves = Math.random();
+        if (moves < 1/2){
+          console.log('The result is heads: You win');
+        }else if (moves < 2/2){
+          console.log('The result is tails:You Lose')
+        }
+        return move;
+      }
+
+      function process2 (){
+        moves = Math.random();
+        if (moves < 1/2){
+          console.log('The result is tails: You win');
+        }else if (moves < 2/2){
+          console.log('The result is heads:You Lose')
+        }
+        return move;
+      }
+    </script>
+
+  </body>
+</html>
+
