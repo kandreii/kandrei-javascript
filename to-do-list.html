@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>
+    To-Do-List
+  </title>
+  </head>
+  <body>
+    
+<input type="text" class="input-to-do" onclick="" placeholder="To-do">
+<button onclick="toDo();">Add</button>
+<script>
+
+  let todos = [];
+function toDo(){
+  
+  let todo = document.querySelector(".input-to-do");
+  let value = todo.value;
+  
+  if (value !== ""){
+    todos.push(value);
+    console.log(todos);
+    todo.value = '';
+  }
+  
+
+
+
+}
+</script>
+
+  </body>
+</html>
